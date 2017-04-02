@@ -1,0 +1,9 @@
+{
+    "module": "",
+    "tmpDir": ".tmp",
+    "srcDir": ".tmp/src",
+    "distDir": "dist",
+    "appModuleMockDir": ".tmp/src/app",
+    "devServerHost": "localhost",
+    "devServerPort": 4000
+}

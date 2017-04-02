@@ -1,0 +1,51 @@
+{
+  "name": "@JDB/ng2-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc"
+  },
+  "bin": {
+    "nn": "dist/cli/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.jdb-dev.com:yangjg/ng2-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@Ng2Test/app-module": "git+ssh://git@git.jdb-dev.com:yangjg/app-module.git",
+    "@types/node": "7.0.5",
+    "angular-router-loader": "0.5.0",
+    "angular2-template-loader": "0.6.2",
+    "awesome-typescript-loader": "3.0.4",
+    "crypto": "0.0.3",
+    "css-loader": "0.26.1",
+    "es6-promise": "^4.0.5",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.10.0",
+    "fs-extra": "^2.1.2",
+    "html-loader": "0.4.4",
+    "html-webpack-plugin": "2.28.0",
+    "md5": "^2.2.1",
+    "mkdir": "0.0.2",
+    "ncp": "^2.0.0",
+    "node-sass": "4.5.0",
+    "raw-loader": "0.5.1",
+    "rimraf": "2.5.4",
+    "sass-loader": "6.0.0",
+    "shelljs": "^0.7.7",
+    "style-loader": "0.13.1",
+    "to-string-loader": "1.1.5",
+    "typescript": "2.1.6",
+    "url-loader": "0.5.7",
+    "webpack": "git+ssh://git@git.jdb-dev.com:yangjg/webpack.git#local-2.2.0",
+    "webpack-dev-server": "2.3.0",
+    "webpack-merge": "2.4.0",
+    "yargs": "^7.0.2"
+  },
+  "devDependencies": {}
+}
